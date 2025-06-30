@@ -1,0 +1,45 @@
+# ============ ROS 2 Workspace ============
+
+# Build system (colcon / ament / CMake)
+build/
+install/
+log/
+
+# ROS 2 launch logs
+*.launch.pyc
+*.pyc
+*.pyo
+__pycache__/
+
+# Python virtualenv
+venv/
+env/
+.venv/
+
+# VSCode and JetBrains IDEs
+.vscode/
+.idea/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Colcon/ament metadata
+.colcon/
+ament_cmake_environment_hooks/
+local_setup.*
+
+# Backup/Swap files
+*.swp
+*~
+*.bak
+
+# macOS
+.DS_Store
+
+# ROS 2 CLI autocompletion (optional)
+setup.sh
+setup.bash
+setup.zsh
